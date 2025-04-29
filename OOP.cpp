@@ -18,6 +18,11 @@ public :
 
 
 int main() {
-    
+    mahasiswa mhs;
+    mhs.nim =2024;
+    mhs.nama = "Jundi";
+    mhs.nilai = 99.5;
+
+    mhs.printData();
 }
 
